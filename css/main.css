@@ -1348,3 +1348,16 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
+.header-text {
+  position: absolute; /* Para posicionar el texto en un lugar fijo en la pantalla */
+  top: 20px; /* Ajusta la distancia desde la parte superior según sea necesario */
+  left: 50%; /* Centra el texto horizontalmente */
+  transform: translateX(-50%); /* Ajusta el texto al centro exacto */
+  font-size: 1.5rem; /* Tamaño de fuente */
+  color: #f3f023; /* Color del texto, puedes cambiarlo según el fondo */
+  text-align: center; /* Alineación del texto */
+  font-family: Arial, sans-serif; /* Fuente del texto */
+  z-index: 10; /* Asegura que el texto esté sobre otros elementos */
+}
+
